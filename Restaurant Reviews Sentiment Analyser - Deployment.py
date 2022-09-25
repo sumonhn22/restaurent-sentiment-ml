@@ -59,7 +59,7 @@ classifier = MultinomialNB(alpha=0.2)
 classifier.fit(X_train, y_train)
 
 # Creating a pickle file for the Multinomial Naive Bayes model
-filename = 'model.pkl'
+filename = 'model2.pkl'
 pickle.dump(classifier, open(filename, 'wb'))
 
 print("Done!")
